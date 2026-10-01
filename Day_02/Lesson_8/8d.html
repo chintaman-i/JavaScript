@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <script>
+      function comparePrice(product1, product2) {
+        if (product1.price < product2.price) {
+          return product1;
+        } else {
+          return product2;
+        }
+      }
+
+      const product1 = {
+        name: 'badminton',
+        price: 1000
+      };
+
+      const product2 = {
+        name: 'socks',
+        price: 10
+      };
+
+      console.log(comparePrice(product1, product2));
+    </script>
+  </body>
+</html>
