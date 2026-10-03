@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cart Quantity</title>
+</head>
+
+<body>
+  <p>Cart quantity: <span id="para">0</span></p>
+
+<button onclick="document.getElementById('para').innerHTML = cartQuantity;"> Show </button>
+
+  <button onclick="cartQuantity = cartQuantity + 2;">+2</button>
+
+  <button onclick="cartQuantity = cartQuantity + 3;">+3</button>
+
+  <button onclick="cartQuantity = 0;">clear</button>
+
+  
+
+  <script>
+    let cartQuantity = 0;
+  </script>
+  </html>
